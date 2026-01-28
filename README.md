@@ -1,8 +1,8 @@
 # DragDropNormalizer
 
-In Windows 10 version 22H2 Microsoft (intentionally?) broke the design of the overlay that appears while you dragging a file - it become solid-white with ugly corners, while it always has been semi-transparent.
+In Windows 10 version 22H2 Microsoft (intentionally?) broke the design of the overlay that appears while you dragging a file - it become solid-white with ugly corners, while it always has been translucent.
 
-This little tool runs at startup for a few milliseconds without need in adminstrator rights and patches the style in-memory, returning the look that was present in older Windows versions, more specifically - in Windows 11 version 21H2.
+This little tool runs at startup for a few milliseconds without needing adminstrator rights and patches the style in-memory, returning the look that was present in older Windows versions, more specifically - in Windows 11 version 21H2.
 
 The distribution which can be downloaded from [Releases](https://github.com/krlvm/DragDropNormalizer/releases) includes batch files, which can be used for automatic installation and registering for running at startup.
 
